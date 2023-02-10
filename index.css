@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1366px;
+margin: 0 auto;
+padding: 0 auto;
+height: 10vh;
+}
+
+nav .logo{
+display: flex;
+font-size: 2rem;
+align-items: center;
+}
+nav .logo i{
+
+    color: goldenrod;
+    padding-right: 10rem;
+}
+
+
+
+
+nav .logo h4{
+
+
+    font-family: 'Lalezar', cursive;
+}
+
+        
+    nav .nav-items{
+
+        display: flex;
+list-style-type: none;
+
+    }
+
+nav .nav-items .nav-item{
+
+padding: 0 1rem;
+
+}
+
+nav .nav-items .nav-item .nav-link{
+    text-decoration: none;
+color: black;
+ font-family: 'Tajawal', sans-serif;;
+}
+nav .nav-items .nav-item .nav-link:hover{
+font-size: 20px;
+color: gold;
+}
+/*MAIN SECtion*/
+
+.main{
+
+
+
+
+    padding-right: 5rem;
+    
+}
+
+.main{
+    background-image: url('https://emarat-news.ae/wp-content/uploads/2021/07/emarat-news_2021-07-14_19-42-12_474044.jpg');
+    background-size:cover ;
+}
+ .main-section{
+
+max-width: 1366px;
+height: 90vh;
+display: flex;
+align-items: center;
+margin: 0 auto;
+padding: 0 auto;
+}
+
+.main-section .contant{
+display: flex;
+flex-direction: column;
+}
+.main-section .contant h1{
+color: aliceblue;
+font-size: 1.6rem;
+margin-bottom: 1rem;
+font-family: 'Tajawal', sans-serif;
+}
+
+.main-section .contant h3{
+font-size: 1.6rem;
+font-family: 'Tajawal', sans-serif; 
+}
+
+.main-section .contant .BTN{
+color: black;
+    width: 9rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: aliceblue;
+    list-style-type: none;
+}
+.main-section .contant .BTN:hover{
+    background-color: gold;
+    cursor: pointer;
+    font-size: 15px;
+}
+/*choose*/
+.ee1 h2{
+
+color:blue;
+padding-right: 5rem;
+}
+.ee1 .butn{
+
+    color: black;
+    width: 9rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: aliceblue;
+    list-style-type: none;
+    margin-right: 15rem;
+
+
+}
+    
+.ee1 .butn:hover{
+
+    background-color: gold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.ee3 .batn{
+
+    color: black;
+    width: 9rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: aliceblue;
+    list-style-type: none;
+    margin-right: 15rem
+
+
+}
+
+.ee2 .ee4 h3{
+
+color: dimgrey;
+
+}
+
+
+.ee2 .ee4 .ee3 .batn:hover{
+
+    background-color: gold;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+footer{
+
+background-color: beige;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+.footer-section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+
+}
+.footer-section p{
+
+    font-size: 1.2rem;
+margin-bottom: 1rem;
+
+
+}
+.footer-section .sochials{
+
+padding: 0.5rem;
+font-size: 1.6rem;
+
+}
+.footer-section .sochials i:hover{
+
+color:blue;
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
